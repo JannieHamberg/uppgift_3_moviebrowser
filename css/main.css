@@ -1,0 +1,187 @@
+
+#mobile-h1 {
+    display: none;
+}
+
+
+#emoji-container {
+    width: 140px;
+    align-self: flex-end;
+  }
+#search-container  {
+    width: 150px;
+}
+
+#searchInput {
+    align-self: center;
+    height: 2.5rem;
+}
+
+#searchButton{
+    align-self: center;
+    height: 2.5rem;
+}
+
+#drums-container,
+#tomato-container,
+#popcorn-container {
+    width: 80px;
+}
+
+.logo {
+    font-size: 30px;
+    margin-right: 4%;
+}
+
+.nav-item {
+    padding-right: 15px;
+    justify-self: center;
+    align-self: center;
+}
+
+.nav-link:hover {
+    color: red!important; /* Sorry :') */
+}
+
+.centernav {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+/* Hero */
+#hero-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/images/banner2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#h1div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#mainh1 {
+    font-family:'Comfortaa', sans-serif;;
+    font-size: 40px;
+    color: black;
+    width: 40%;
+    padding: 40px;
+    margin-top: 6%;
+    
+}
+
+#search-h1 {
+    font-family: 'Comfortaa', sans-serif;;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#upcoming-div,
+#popular-div,
+#in-cinemas-div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#popular-div {
+    margin-top: 3%;
+}
+
+#upcoming-div,
+#in-cinemas-div {
+    margin-top: 8%;
+}
+
+.upcoming-h2,
+.popular-h2,
+.in-cinemas-h2 {
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin: 0% 1% 0% 2%;
+    font-family: 'Lilita One', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 4rem;
+}
+
+
+#upcomingMoviesCarousel,
+#popularMoviesCarousel,
+#inCinemasCarousel {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#middle-bg {
+    background-color: rgb(14, 14, 14);
+    padding: 1px 0px 20px 0px;
+}
+
+
+.carousel-item img {
+    object-fit: contain;
+    height: 70%;
+    width: 100%;
+    opacity: 0.5;
+  }
+
+.carousel-item{
+    height:600px;
+    cursor: pointer;
+}
+.carousel-caption {
+    top: 70%;
+}
+.carousel-h5 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.carousel-p {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.error-div {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-div-carousel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.error-msg {
+    color: white;
+    font-size: 26px;
+    padding-top: 40px;
+    align-self: center;
+}
+
+.error-img {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+
+

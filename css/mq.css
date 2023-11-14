@@ -1,0 +1,498 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #mainh1 {
+       display: none;   
+    }
+    
+    #mobile-h1 {
+        display: block;
+        font-family:'Comfortaa', sans-serif;;
+        font-size: 17px;
+        color: black;
+        width: 80%;
+        padding: 30px;
+        margin-top: 26%;
+    }
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    #wrapper-mobile {
+        width: 100vw;
+        padding-left: 5px;
+        padding-right: 5px;
+        box-sizing: border-box;
+        
+    }
+
+    .navbar {
+        z-index: 1000;
+        position: relative;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    #logo1 {
+       margin: 0 auto;
+    }
+
+    .d-flex {
+        margin: 0 auto;
+    }
+
+
+    #search-container {
+        width: 70px;
+    }
+
+    #searchInput{
+        width: 12rem;
+    }
+
+    #searchButton  {
+        width: 20%;
+        font-size: 11px;
+    }
+
+    #hero-container1 {
+        height: 20%;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin: 15% auto;
+        padding: 0;
+    }
+
+    #hero-container {
+        margin-top: 4%;
+    }
+
+    #h1div {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #emoji-container {
+        width: 80px;
+    }
+
+    #mainh1 {
+        font-size: 18px;
+        width: 53%;
+        margin: 25% 0% 30% 0%;
+
+        
+    }
+
+    #upcoming-div,
+    #in-cinemas-div {
+        margin-top: 20%;
+    }
+
+    #popular-div {
+        margin-top: 2%;
+    }
+
+    #upcoming-div,
+    #popular-div,
+    #in-cinemas-div {
+        justify-content: center;
+    }
+
+    #middle-bg{
+        margin-top: 20%;
+    }
+
+
+    .upcoming-h2,
+    .popular-h2,
+    .in-cinemas-h2 {
+        font-size: 28px;
+    }
+
+    #drums-container,
+    #tomato-container,
+    #popcorn-container {
+        width: 50px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    
+    }
+
+    .carousel-item {
+        height: auto;
+    }
+
+    .carousel-h5 {
+        font-size: 20px;  
+    }
+
+    .carousel-p {
+        font-size: 10px;
+    }
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    #wrapper-mobile {
+        width: 100vw;
+        padding-left: 5px;
+        padding-right: 5px;
+        box-sizing: border-box;
+        
+    }
+
+    .navbar {
+        z-index: 1000;
+        position: relative;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    #logo1 {
+       margin: 0 auto;
+    }
+
+    .d-flex {
+        margin: 0 auto;
+    }
+
+    #search-container {
+        width: 70px;
+    }
+
+    #searchInput{
+        width: 12rem;
+    }
+
+    #searchButton  {
+        width: 20%;
+        font-size: 11px;
+    }
+
+    #hero-container1 {
+        height: 20%;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin: 6% auto;
+        padding: 0;
+    }
+
+    #h1div {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #emoji-container {
+        width: 160px;
+    }
+
+    #mainh1 {
+        font-size: 28px;
+        width: 53%;
+        margin: 25% 0% 30% 20%;
+
+        
+    }
+
+    #upcoming-div,
+    #popular-div,
+    #in-cinemas-div {
+        margin-top: 20%;
+        justify-content:flex-start;
+    }
+
+
+    .upcoming-h2,
+    .popular-h2,
+    .in-cinemas-h2 {
+        font-size: 45px;
+    }
+
+    #drums-container,
+    #tomato-container,
+    #popcorn-container {
+        width: 70px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    
+    }
+
+    .carousel-item {
+        height: auto;
+    }
+
+    .carousel-h5 {
+        font-size: 20px;  
+    }
+
+    .carousel-p {
+        font-size: 10px;
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    #wrapper-mobile {
+        width: 100vw;
+        padding-left: 5px;
+        padding-right: 5px;
+        box-sizing: border-box;
+        
+    }
+
+    .navbar {
+        z-index: 1000;
+        position: relative;
+    }
+
+    .navbar-nav {
+        display: none;
+    }
+
+    #logo1 {
+       margin: 0 auto;
+    }
+
+    .d-flex {
+        margin: 0 auto;
+    }
+
+    #search-container {
+        width: 70px;
+    }
+
+    #searchInput{
+        width: 12rem;
+    }
+
+    #searchButton  {
+        width: 20%;
+        font-size: 11px;
+    }
+
+    #hero-container1 {
+        height: 20%;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin: 15% auto;
+        padding: 0;
+    }
+
+    #h1div {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #emoji-container {
+        width: 180px;
+    }
+
+    #mainh1 {
+        font-size: 28px;
+        width: 53%;
+        margin: 25% 0% 30% 20%;
+
+        
+    }
+
+    #upcoming-div,
+    #popular-div,
+    #in-cinemas-div {
+        margin-top: 20%;
+        justify-content:flex-start;
+    }
+
+
+    .upcoming-h2,
+    .popular-h2,
+    .in-cinemas-h2 {
+        font-size: 65px;
+    }
+
+    #drums-container,
+    #tomato-container,
+    #popcorn-container {
+        width: 50px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    
+    }
+
+    .carousel-item {
+        height: auto;
+    }
+
+    .carousel-h5 {
+        font-size: 20px;  
+    }
+
+    .carousel-p {
+        font-size: 10px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    #wrapper-mobile {
+        width: 100vw;
+        padding-left: 5px;
+        padding-right: 5px;
+        box-sizing: border-box;
+        
+    }
+
+    .navbar {
+        z-index: 1000;
+        position: relative;
+    }
+
+    .custom-nav {
+        font-size: 18px;
+    }
+        
+
+    #logo1 {
+      margin-right: 5%;
+    }
+
+    .d-flex {
+        margin: 0 auto;
+    }
+
+    #search-container {
+        width: 70px;
+    }
+
+    #searchInput{
+        width: 12rem;
+    }
+
+    #searchButton  {
+        width: 20%;
+        font-size: 11px;
+    }
+
+    #hero-container1 {
+        height: 20%;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin: 3% auto;
+        padding: 0;
+    }
+
+    #h1div {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #emoji-container {
+        width: 180px;
+    }
+
+    #mainh1 {
+        font-size: 28px;
+        width: 53%;
+        margin: 25% 0% 30% 20%;
+
+    }
+
+    #upcoming-div,
+    #popular-div,
+    #in-cinemas-div {
+        margin-top: 20%;
+        justify-content:flex-start;
+    }
+
+
+    .upcoming-h2,
+    .popular-h2,
+    .in-cinemas-h2 {
+        font-size: 65px;
+    }
+
+    #drums-container,
+    #tomato-container,
+    #popcorn-container {
+        width: 50px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    
+    }
+
+    .carousel-item {
+        height: auto;
+    }
+
+    .carousel-h5 {
+        font-size: 20px;  
+    }
+
+    .carousel-p {
+        font-size: 10px;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)  { 
+
+    #h1div {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #emoji-container {
+        width: 220px;
+    }
+
+    
+    #mainh1 {
+        font-size: 38px;
+        width: 53%;
+        margin: 25% 0% 30% 30%;
+
+    }
+}

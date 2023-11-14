@@ -1,0 +1,101 @@
+* {
+    -webkit-user-select: none;  /* Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* IE10+/Edge */
+    user-select: none;          /* Standard syntax */
+  }
+
+.no-results {
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+  }
+
+#search-container  {
+    width: 150px;
+}
+
+.searchpage-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;  
+}
+
+#searchInput {
+    align-self: center;
+    height: 2.5rem;
+}
+
+#searchButton{
+    align-self: center;
+    height: 2.5rem;
+}
+
+.logo2 {
+    font-size: 30px;
+    margin-right: 1%;
+}
+
+
+.hero-container {
+    position: relative;
+    background-color: rgb(14, 14, 14);
+  }
+
+#blackdiv {
+    height: 100px;
+}
+
+.search-bg {
+    background-color: black;
+    min-height: 100vh;
+}
+
+
+#search-h1 {
+    font-family: 'Comfortaa', sans-serif;;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.error-div {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error-msg {
+    color: white;
+    font-size: 26px;
+    padding-top: 40px;
+    align-self: center;
+}
+
+.error-img {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card-body {
+    min-height: 200px;
+    flex-grow: 1;
+}
+
+.card-img-top {
+    height: 450px;
+    object-fit: cover;
+}
+
+
+  

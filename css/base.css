@@ -1,0 +1,51 @@
+* {
+    -webkit-user-select: none;  /* Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* IE10+/Edge */
+    user-select: none;          /* Standard syntax */
+  }
+
+body,
+.container {
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 12px; 
+  }
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(14, 14, 14);;
+  }
+
+#infoModal .modal-dialog::-webkit-scrollbar-track {
+    background: rgb(171, 167, 167); 
+  }
+  
+#infoModal .modal-dialog::-webkit-scrollbar-thumb {
+    background: rgb(171, 167, 167); 
+    border-radius: 10px;
+  }
+  
+#infoModal .modal-dialog::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px; 
+  }
+
+.custom-nav {
+    background-color: black;
+    height: 100px;
+    font-size: 26px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+footer {
+    background-color: rgb(14, 14, 14);
+    height: 100px;
+    width: 100%;
+   
+}
+
+.copyright {
+    text-align: center;
+}

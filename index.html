@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moviebrowser</title>
+<!-- CDN for hero text -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- CDN Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Lilita+One&family=Noto+Color+Emoji&family=Prompt:wght@100&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js" integrity="sha512-m0RQU4SBx0p/bLwRiI4fJBGRafVLZ4s86wRe1+OAx5EXbcWiS/X1jvYdJQRD8jOoIVl+WTyVeMawUWVCh1O8+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Shared CSS -->
+<link rel="stylesheet" href="/css/base.css">
+<!-- CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+<!-- Media Query -->
+    <link rel="stylesheet" href="/css/mq.css">
+
+</head>
+<body>
+    
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light custom-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary logo" id="logo1" href="index.html">Moviebrowser
+          </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 centernav">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#upcoming-div">Upcoming</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#popular-div">Popular</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#in-cinemas-div">In cinemas</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <div id="search-container"></div>
+              <input class="form-control me-2" type="search" placeholder="Search movies" aria-label="Search" id="searchInput">
+              <button class="btn btn-outline-light" type="submit" id="searchButton">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<main id="wrapper-mobile">
+<!-- Hero Section -->
+<section id="hero-container1" class="text-white p-5 hero-container">
+    <div id="h1div">
+        <h1 id="mainh1"><span class="auto-type"></span></h1>
+        <h1 id="mobile-h1">Welcome to the ultimate moviebrowser!</h1>
+        <div id="emoji-container"></div>
+            </div>      
+    </section>
+<!-- Carousel for upcoming movies -->
+<section id="upcoming-div">
+<h2 class="upcoming-h2">UPCOMING MOVIES</h2>
+<div id="drums-container"></div>
+</section>
+<div class="container my-5" id="carousel-container">
+    <div id="upcomingMoviesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+            <!--Items added with js -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#upcomingMoviesCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#upcomingMoviesCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<!-- Carousel for popular movies -->
+<section id="middle-bg">
+<section id="popular-div">
+    <h2 class="popular-h2">POPULAR MOVIES</h2>
+    <div id="tomato-container"></div>
+    </section>
+    <div class="container my-5" id="carousel-container">
+        <div id="popularMoviesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-inner">
+                <!--Items added with js -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#popularMoviesCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#popularMoviesCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- Carousel for in cinemas JS -->
+
+    <section id="in-cinemas-div">
+        <h2 class="in-cinemas-h2">IN CINEMAS</h2>
+        <div id="popcorn-container"></div>
+        </section>  
+        <div class="container my-5" id="carousel-container">
+            <div id="inCinemasCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-inner">
+                    <!--Items added with js -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#inCinemasCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#inCinemasCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+            <footer>
+                <p class="copyright">&copy; 2023 Moviebrowser</p>
+        </footer>
+    </main>
+<!-- Movie Details Modal -->
+
+  <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+<!-- JS search -->
+<script src="/js/main.js"></script>
+<!-- Lottie Search Animation script -->
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<!-- JS Hero text -->
+<script src="/js/herotext.js"></script>
+<!-- Carousel upcoming JS -->
+<script src="/js/carousel-upcoming.js"></script>
+<!-- carousel popular JS -->
+<script src="/js/carousel-popular.js"></script>
+<!-- carousel in cinemas JS -->
+<script src="/js/carousel-incinemas.js"></script>
+<!-- Emoji JS -->
+<script src="/js/emoji.js"></script>
+
+</body>
+</html>
